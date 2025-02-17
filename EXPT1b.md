@@ -8,7 +8,7 @@
  | MOSFET (M2) | CMOSP (TSMC 0.18um) | Main active element (replacing resistor (R1) |
  | Voltage source (V1) | 1.8V | Supply voltage |
  | Voltage source (V2) | SINE(0.9 50m 1k) | AC input signal(1kHz, 50mV AC + 0.9V DC) |
- | MOSFET model library | .lib "C:\Users\nehas\OneDrive\Documents\LTspice\tsmc018.lib"| Defines MOSFET characteristics |   
+ | MOSFET model library | .lib "Documents\LTspice\tsmc018.lib"| Defines MOSFET characteristics |   
 
   ### 3. SIMULATION PROCEDURE
  Now for the above circuit diagram, we are doing the analysis by replacing the resistor R1 with a PMOSFET and compare the result with the first circuit.
