@@ -12,7 +12,7 @@
  | Resistor (R1) | 1kohm | Load Resistance |
  | Voltage source (V1) | 1.8V | Supply voltage |
  | Voltage source (V2) | SINE(0.9 50m 1k) | AC input signal(1kHz, 50mV AC + 0.9V DC) |
- | MOSFET model library |  .lib "D:\Documents\tsmc018.lib" | Defines MOSFET characteristics |
+ | MOSFET model library |  .lib "Documents\LTspice\tsmc018.lib"| Defines MOSFET characteristics |
 
   ### 4. SIMULATION PROCEDURE
  ### <ins>4.1 DC operating point analysis</ins>
