@@ -40,7 +40,31 @@ MOSFET dimensions: w=19.3821um l=180nm
 
 TRANSIENT ANALYSIS
 ![Screenshot 2025-03-09 225329](https://github.com/user-attachments/assets/0893f364-cc77-4808-b62e-aeb070c34783)
+- The gain of the circuit Av=-4.701 V/V.
+- There is 180 degree phase shift in the output graph.
+- The gain is lower compared to the gain we got from the previous circuit where we used a resistor.
+- This can be due to CMRR which affects the gain of circuit.
 
 AC ANALYSIS
+![001](https://github.com/user-attachments/assets/4f959117-24c5-4f5b-aa9d-6f72eff25fad)
 
+The 3dB frequency of the circuit.
 
+### CASE-3 Circuit with N-MOS
+![Screenshot 2025-03-11 233451](https://github.com/user-attachments/assets/6044ed89-f8e1-4601-be53-b409df67027a)
+
+DC ANALYSIS
+![Screenshot 2025-03-09 213008](https://github.com/user-attachments/assets/ec659da4-d19a-40d9-b11c-0400e06382fd)
+
+TRANSIENT ANALYSIS
+![Screenshot 2025-03-09 213206](https://github.com/user-attachments/assets/89c261a0-943e-4f2f-aa43-ae95932e38b0)
+The gain of the circuit Av= -4.862 V/V and there is a 180 degree phase shift. 
+
+AC ANALYSIS
+![Screenshot 2025-03-11 233907](https://github.com/user-attachments/assets/9e73ce03-6015-4c2f-bda5-9628fa4b51c8)
+
+### INFERENCES
+- The stability of each circuit increases with resistor circuit being least stable and the NMOS circuit being the most stable.
+- Small variations in gain and bandwidth is also seen.
+- Replacing both the Rd resistors with MOSFETS gives more stability to the circuit. This also increases the gain of the circuit.
+- Mosfet based differential circuit is highly preferable to use in ICs since it has high CMRR, draws minimal power, high gain, high input impedance.
